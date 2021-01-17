@@ -82,6 +82,8 @@ public class Anagrams extends JFrame {
     public Anagrams() {
         wordLibrary = WordLibrary.getDefault();
         
+        System.out.println("hhh");
+        
         initComponents();
         getRootPane().setDefaultButton(guessButton);
         scrambledWord.setText(wordLibrary.getScrambledWord(wordIdx));
